@@ -78,14 +78,16 @@ h6 {
   line-height: 0;
 }
 
-.back-to-top:hover {
+/*.back-to-top:hover {
   background: var(--theme-bg);
   color: var(--font-color-white);
-}
+}*/
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+  background: var(--theme-bg);
+  color: var(--font-color-white);
 }
 
 /*--------------------------------------------------------------
